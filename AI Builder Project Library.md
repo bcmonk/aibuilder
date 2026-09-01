@@ -28,8 +28,21 @@ Build a voice-note or meeting-capture workflow that produces both a faithful rec
 
 **Domain Consultant angle:** Explore how an intent-aware capture layer could improve discovery notes, handoffs, enablement content, or incident timelines without allowing polished summaries to replace authoritative evidence.
 
+### Model-Agnostic Harness Drill
+
+Build a small harness that swaps its underlying model provider without touching application logic, then simulate a vendor cutting off access to see what actually breaks.
+
+**Start simple:** Wire a single skill or workflow (a summarizer, a classifier, a simple agent loop) behind a thin abstraction layer — one function or config value that selects the model provider — using at least two providers (for example, an Anthropic model and an open-weights model via a router). Confirm the same task runs unmodified against both.
+
+**Build further:** Simulate a cutoff: revoke or expire the credential for one provider mid-project and measure how long it takes to fail over to the other, what breaks (prompts tuned to one model's quirks, tool-call formats, context limits), and what doesn't (governance, logging, approval gates — if the harness is built right, these live above the model layer and survive the swap).
+
+**Advanced extension:** Add automated failover with a defined policy (which fallback model, under what conditions, who's notified), inventory every credential, API key, and non-human identity tied to each provider, and produce a one-page vendor-dependency map — what would actually happen if this specific model access were pulled tomorrow.
+
+**Domain Consultant angle:** A direct, tangible way to walk a customer through vendor-risk and non-human-identity conversations — most enterprises building on a single model API have never tested what happens when that access disappears, and 2026's lab conflicts (OpenAI/Cursor, Anthropic/Windsurf) make it a live, not hypothetical, risk.
+
 ## Sources
 
 - [The AI Daily Brief — The Most Useful New AI Features and Tools to Try](https://aidailybrief.ai/e/2026-08-28)
 - [Google DeepMind — Gemini 3.5 Audio model card](https://deepmind.google/models/model-cards/gemini-3-5-audio/)
 - [Anthropic — Claude gets its own browser in Cowork](https://claude.com/blog/cowork-built-in-browser)
+- [The AI Daily Brief — How to Navigate the Next Wave of AI Competition](https://aidailybrief.ai/e/2026-08-31)

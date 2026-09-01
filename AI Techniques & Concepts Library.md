@@ -44,6 +44,8 @@ A strong harness provides:
 
 This pattern preserves the value of incumbent systems: the agent becomes a new interface, while established data quality, workflow rules, permissions, and audit controls remain the control plane. Security and identity products fit naturally at credential issuance, authorization, policy enforcement, session monitoring, anomaly detection, and audit review.
 
+**Portability as a harness requirement.** Frontier labs are increasingly using model and API access as a competitive weapon rather than a stable utility — OpenAI cut off Cursor's access to its models after a rival's acquisition of the company, and Anthropic itself cut off Windsurf with under five days' notice during an OpenAI acquisition attempt months earlier. A harness that hard-codes a single model vendor inherits that vendor's business conflicts as an operational risk, not just a technical one. Treat multi-model routing, a thin abstraction layer between application logic and any one model API, and a documented open-weights or alternate-vendor fallback as harness requirements alongside authorization and audit — not only as cost hedges. The same architecture that lets a team swap models for price also lets it swap them when a vendor cuts access for reasons that have nothing to do with the customer's contract. This is a supply-chain and vendor-risk conversation as much as a technical one: credentials, API keys, and non-human identities issued against a single vendor's harness are themselves part of the lock-in surface, and worth inventorying like any other third-party dependency.
+
 ### The Defender's Window
 
 As capable cyber models and agent harnesses become broadly available, defenders have a temporary opportunity to improve fundamentals and operationalize the same automation before attackers scale it. The useful response is not generalized alarm; it is a prioritized readiness loop:
@@ -62,3 +64,4 @@ The enterprise implication is that AI-enabled defense should become a leadership
 - [Anthropic — Claude gets its own browser in Cowork](https://claude.com/blog/cowork-built-in-browser)
 - [Salesforce — Salesforce and Anthropic announce Claudeforce](https://www.salesforce.com/news/press-releases/2026/08/26/salesforce-and-anthropic-announce-claudeforce/)
 - [OpenAI — The Defender's Window](https://openai.com/index/the-defenders-window/)
+- [The AI Daily Brief — How to Navigate the Next Wave of AI Competition](https://aidailybrief.ai/e/2026-08-31)
