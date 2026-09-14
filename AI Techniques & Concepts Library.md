@@ -369,6 +369,8 @@ A model can be better overall yet still be the wrong choice for a particular wor
 **Try now**
 Keep 5–10 representative tasks and rerun them when a meaningful new model arrives. Record which model/setting becomes the default for each task rather than declaring one global winner.
 
+For a recurring, low-risk task that can be completed by either typing or voice, compare the two interaction modes. Record output acceptance, correction/rework, elapsed time, and context or privacy constraints. Treat voice as a workflow choice to validate, not a default assumed to be faster or suitable everywhere.
+
 Also separate **efficiency models** from **opportunity models**. An efficiency model should earn its place by doing known work better, faster, cheaper, or with less supervision. An opportunity model should be tested against work that was previously impractical or outside the team's skill set. Do not judge a genuinely new capability only with yesterday's benchmark slate.
 
 For opportunity models, add a short capability-discovery pass:

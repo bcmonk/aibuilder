@@ -318,6 +318,20 @@ Choose three representative tasks and three models. Keep the tasks stable so fut
 
 ---
 
+### Voice-First Workflow Comparison
+Compare typed and voice interaction for one recurring, low-risk workflow to decide whether voice improves the work rather than adopting it on anecdote or vendor claims.
+
+**Start simple**
+Choose one non-sensitive task that can be completed both by typing and voice. Run several comparable attempts, preserve the outputs, and record acceptance, correction/rework, elapsed time, interruptions, and privacy or environmental constraints.
+
+**Evolve it**
+- Test whether voice changes the workflow itself, not just input speed.
+- Separate speaking/dictation quality from the quality of the underlying model or agent.
+- Include accessibility and shared-environment constraints in the evaluation.
+- Keep voice systems away from sensitive data and authorized actions until data handling, identity, and approval boundaries are explicit.
+
+---
+
 ### AI Deputization Audit
 Inventory recurring work and decide what should stay human-led, become AI-assisted, run as a duet, or be delegated. Include both known efficiency opportunities and work that previously seemed impractical because it required too much clicking, application switching, specialist skill, or sustained attention.
 
