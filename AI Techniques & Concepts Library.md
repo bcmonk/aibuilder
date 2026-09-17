@@ -272,6 +272,39 @@ Observability is not only an operational concern. It is also a security, forensi
 
 ---
 
+### Use independent process-level evaluation for consequential AI workflows
+For a consequential workflow, do not limit evaluation to final-output scoring. Give a reviewer recurring access to inspect the operating process: authorization boundaries, prompt/context changes, tool actions, test evidence, incidents, and remediation.
+
+**Make independence reviewable**
+Document the evaluator's scope, access and exclusions, conflicts, reporting recipient, authority to raise findings, and follow-up process. An evaluator is not independent merely because of its label or because it is external.
+
+**Why it matters**
+Process-level review can expose control failures that a polished final output hides. It also turns claims of oversight into an inspectable operating practice.
+
+---
+
+### Preserve provenance and interpretation for AI-assisted research outputs
+Treat a generated discovery, recommendation, or analysis as a reviewable artifact, not as a decision-ready conclusion merely because it looks correct.
+
+For material outputs, retain:
+- the source inputs and their versions
+- model, prompt, tool, and output versions
+- verification status and supporting checks
+- expert comments and unresolved questions
+- a plain-language interpretation of what the output does and does not establish
+
+**Why it matters**
+A result without an explanation, verification record, and human interpretation is difficult to challenge, reuse, or turn into durable knowledge.
+
+---
+
+### Turn AI incidents into control improvements
+When a consequential AI workflow fails or nearly fails, preserve the trace, identify the contributing control gap, and add a test, review gate, or other durable remediation before re-enabling the affected workflow.
+
+Record the incident trigger, impact, evidence, root cause, corrective action, owner, verification evidence, and closure decision. Treat a repeated incident as evidence that the control has not yet been institutionalized.
+
+---
+
 ## Multi-Agent & Graph Thinking
 
 ### Separate specialists from orchestration

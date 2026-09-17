@@ -294,6 +294,45 @@ Document allowed vs. denied actions.
 
 ---
 
+### Independent Evaluation Readiness Drill
+Prepare one consequential but synthetic or low-risk AI workflow for a review by a person who did not build it. The goal is to test whether the workflow's evidence, controls, and reviewer relationship are genuinely inspectable.
+
+**Start simple**
+Create (1) a scoped evaluator charter, (2) an access-and-exclusions matrix, (3) a conflict-disclosure statement, (4) a checklist covering authorization, change history, tool/action logs, evaluations, and incident handling, and (5) a remediation log for two simulated findings. Have an uninvolved reviewer attempt the assessment using only that packet.
+
+**Evolve it**
+- Define reporting recipients, escalation paths, and verification of remediation.
+- Test whether the reviewer can identify a deliberately seeded control gap.
+- Reassess independence when the evaluator's funding, selection, access, or reporting relationship changes.
+
+---
+
+### Research-Result Evidence Ledger
+Build a local record for one AI-assisted research finding so a technical reviewer can assess the claim, source materials, generated artifacts, verification status, interpretation, and open questions in one place.
+
+**Start simple**
+Use a Markdown or JSON template that requires source references, model/output version, explicit verification state, reviewer commentary, and a plain-language interpretation before an item is marked reviewed.
+
+**Evolve it**
+- Add a validator that rejects incomplete records.
+- Link related claims, contradictory evidence, and follow-up experiments.
+- Compare whether a second reviewer reaches the same interpretation from the ledger alone.
+
+---
+
+### AI Workflow Incident Register
+Turn failures and near misses in one consequential AI automation into tracked control improvements rather than one-off fixes.
+
+**Start simple**
+Create a local incident form with workflow name, impact, trace/artifacts, root cause, corrective action, owner, verification evidence, and closure status. Record at least one simulated incident and verify the proposed remediation before closing it.
+
+**Evolve it**
+- Add severity and recurrence criteria that trigger escalation or suspension.
+- Require a regression test or review gate for each closed incident.
+- Review incidents periodically for repeated control gaps across workflows.
+
+---
+
 ## Learning & Experimentation Projects
 
 ### Model Rotation Experiment
