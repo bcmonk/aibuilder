@@ -444,6 +444,7 @@ For repeated workflows, track:
 - successful outputs
 - human review time
 - rework required
+- elapsed wall-clock time
 
 Then calculate **cost per accepted task**.
 
