@@ -253,6 +253,8 @@ Natural-language instructions can express intent, but they should not grant auth
 **Enterprise lens**
 As agents become more autonomous, the question shifts from “What did the model intend?” to “Under whose authority was this action permitted?”
 
+**Service-side authorization is a separate boundary.** A user's delegated authority to an agent does not obligate a third-party service to accept that agent's request. For consequential actions, the receiving service should be able to verify an approved agent identity, enforce a defined scope and transaction limit, record its decision, and revoke access independently of the user's prompt or the agent's claimed permission.
+
 ---
 
 ### Design for reconstructability
