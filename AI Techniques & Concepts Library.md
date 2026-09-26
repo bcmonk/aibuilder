@@ -145,6 +145,27 @@ For one recurring deliverable, explicitly define:
 
 ---
 
+### Optimize the whole workflow, not just the AI-accelerated step
+Measure AI productivity at the level of the outcome, not only the task it makes faster. A large local gain can produce a much smaller end-to-end gain when review, integration, decision-making, handoffs, or release capacity remain unchanged.
+
+**Weak-link principle**
+Once AI accelerates one part of a workflow, throughput becomes constrained by the slowest or least adaptable remaining part. The bottleneck may move rather than disappear, and faster production can simply create a larger queue for people downstream.
+
+**Try now**
+For one AI-assisted workflow:
+- map the path from request to customer- or business-facing outcome
+- measure both the accelerated task and end-to-end cycle time
+- identify where work now waits, accumulates, or requires rework
+- redesign the new bottleneck before increasing AI output further
+
+**Useful question**
+> Did the whole workflow improve, or did we just create more material for humans to review?
+
+**DC angle**
+When AI speeds up account research, architecture drafts, follow-ups, or technical analysis, track whether customer-facing throughput and quality improve—not only how quickly the artifact was produced.
+
+---
+
 ### Move valuable work into the experiment queue
 Do not limit AI to low-risk busywork.
 

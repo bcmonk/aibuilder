@@ -84,6 +84,8 @@ Review one public-source brief.
 - Flag vendor-only claims.
 - Add duplicate detection.
 
+For high-volume checks, use a cheap judgment layer with decomposed questions and explicit escalation for consequential or ambiguous cases; measure false positives, false negatives, escalation rate, and cost per accepted task.
+
 ---
 
 ## Agentic Workflow Projects
