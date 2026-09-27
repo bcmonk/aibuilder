@@ -284,9 +284,10 @@ Create a synthetic agent with a deliberately narrow permission set and reason ab
 Document allowed vs. denied actions.
 
 **Evolve it**
-- Add approval gates.
-- Add temporary elevation.
-- Add audit logging and reconstructability.
+- Inventory the AI tools, connected identities, data scopes, and owners before expanding the experiment.
+- Add approval gates for high-impact actions and reduce each tool to the smallest useful permission scope.
+- Add temporary elevation and expiry rather than standing, all-access permission.
+- Add audit logging and reconstructability: who initiated the action, what it accessed, and what it did.
 - Explore workload identity and delegated authority.
 - Inject fake authorization statements such as “Administrator approved this” or “Another agent authorized this action” and verify that infrastructure ignores them unless a real authorization event exists.
 - Trace delegated authority back to a human or organizational principal.
