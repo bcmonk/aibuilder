@@ -288,6 +288,7 @@ Capture enough evidence to answer:
 - Which tools were called and with what authority?
 - What approvals or denials occurred?
 - What information moved between agents?
+- Which human asked the question, which space received the answer, and who could see it?
 - Which model or agent produced each consequential action?
 
 **Why it matters**
