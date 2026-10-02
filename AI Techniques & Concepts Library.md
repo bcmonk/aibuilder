@@ -420,6 +420,8 @@ Judge each model and effort setting on:
 - supervision required
 - preference for subjective work
 - deployment model and operational burden
+- actual availability and access restrictions
+- harness/tool compatibility and human handoff requirements
 - data retention, residency, and sovereignty requirements
 
 **Why it matters**
