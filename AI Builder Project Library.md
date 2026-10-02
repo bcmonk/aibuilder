@@ -167,6 +167,12 @@ Build one team-owned agent around work where multiple Domain Consultants repeate
 
 **Start simple**
 Score candidate workflows 1–5 on shared need, staleness cost, permission sensitivity, and checkability. Pick a public/synthetic-data candidate with high shared need and easy verification, then have at least two builders use the same shared context/session.
+- Record the goal and have the agent restate it before work begins.
+- List read scope and execution authority separately.
+- Name the approval gate and accountable human.
+- Specify the answer destination.
+- Define the evidence needed to reconstruct the run.
+- Test one denied action and one required approval.
 
 **Team-agent charter**
 Before inviting more people, document which roles may ask for what, who owns each ground-truth area, how corrections are approved, what information must remain private, where answers may land, and which actions require a separate identity or human approval. Create five rerunnable checks covering current ground truth, permissions, answer destination, uncertainty handling, and traceability.
