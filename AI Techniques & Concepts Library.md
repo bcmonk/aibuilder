@@ -195,7 +195,7 @@ For a loop that can run independently, define:
 - sandbox or permission boundaries
 - escalation condition
 
-For knowledge work, manufacture the referee: counts, citations, format constraints, coverage thresholds, or other externally checkable tests. “Make it insightful” is not a usable stopping criterion.
+For knowledge work, manufacture the referee: counts, citations, format constraints, coverage thresholds, or other externally checkable tests. “Make it insightful” is not a usable stopping criterion. For research, check requirements one by one, preserve supported evidence, and turn each unmet requirement into the next targeted research action.
 
 Useful loop types:
 - Turn-based
