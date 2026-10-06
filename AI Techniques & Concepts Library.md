@@ -14,6 +14,9 @@ Build compact, reusable context that gives an AI durable understanding of role, 
 **Why it matters**
 Better context can improve quality more than repeatedly rewriting prompts, and portable context reduces friction when moving between tools.
 
+**Portability check**
+Keep durable context, memory exports, and important instructions in an inspectable format that can move between tools; treat an agent’s convenience layer as replaceable. Before granting a connected agent new access, document what it receives, where it runs, whether it trains on that data, and how its memory and permissions can be exported or revoked.
+
 **Try now**
 - Create a 150–300 word role/context profile.
 - Include goals, constraints, preferred communication style, and what the AI should challenge.
