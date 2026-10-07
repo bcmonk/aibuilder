@@ -471,6 +471,9 @@ Ask: “If this model or provider disappeared tomorrow, what would we have to re
 **Why it matters**
 Harness portability is an architecture and continuity concern. Institutional knowledge embedded in skills, orchestration, tools, and permissions can create lock-in even when the model itself is replaceable.
 
+**Apply an operational-ownership test**
+For an important workflow, document who controls its data, prompts/skills, evaluations, adapted behavior, permissions, traces, memory, and exit path. Open weights or self-hosting alone do not establish independence; use the inventory to distinguish a managed dependency from an unacceptable loss of control and to define what must remain portable.
+
 ---
 
 ### Measure cost per accepted task
