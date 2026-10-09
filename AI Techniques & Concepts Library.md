@@ -606,6 +606,8 @@ Track:
 
 This exposes capability overhang: useful things AI can already do that have not entered your workflows.
 
+Before adopting a new model or configuration, run a small personal benchmark: four to six representative tasks (including one wish-list task), the candidates plus the current baseline, fresh anonymous runs, and side-by-side scoring. Then decide switch, split, or stay based on quality, cost, latency, policy, and migration friction—not leaderboard position.
+
 ---
 
 ### Learn by building
