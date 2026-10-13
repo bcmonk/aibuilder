@@ -191,6 +191,20 @@ Before inviting more people, document which roles may ask for what, who owns eac
 
 ---
 
+### AI Champion Network
+Build a structured network of internal AI champions who help teams select, deliver, evaluate, and sustain real AI use cases.
+
+**Start simple**
+Nominate one champion from a team and have them deliver one public or synthetic-data use case. Record the goal, acceptance test, owner, and one failure or denied action.
+
+**Evolve it**
+- Define champion roles from peer ambassador to internal forward-deployed builder.
+- Pair a people sponsor from HR/L&D with an AI sponsor who clears priorities, access, and approvals.
+- Measure readiness by accepted use cases and post-deployment ownership, not tool familiarity.
+- Add an autonomy ladder: human approval → narrow delegated actions with logging → broader delegation only after reliability and recovery evidence.
+
+---
+
 ### AI Builder Project Coach
 Build an assistant that helps a builder evolve their own AI project between sessions.
 
