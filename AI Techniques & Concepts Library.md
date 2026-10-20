@@ -302,6 +302,8 @@ Observability is not only an operational concern. It is also a security, forensi
 ### Use independent process-level evaluation for consequential AI workflows
 For a consequential workflow, do not limit evaluation to final-output scoring. Give a reviewer recurring access to inspect the operating process: authorization boundaries, prompt/context changes, tool actions, test evidence, incidents, and remediation.
 
+**Distinguish behavior from mechanism.** A passing output evaluation establishes what the system did under the tested conditions, not necessarily why it did it or whether it will behave the same way when context or incentives change. Record that evidence boundary explicitly; seek causal explanations and process evidence where the consequence justifies them.
+
 **Make independence reviewable**
 Document the evaluator's scope, access and exclusions, conflicts, reporting recipient, authority to raise findings, and follow-up process. An evaluator is not independent merely because of its label or because it is external.
 
