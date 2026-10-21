@@ -274,6 +274,8 @@ Natural-language instructions can express intent, but they should not grant auth
 - Delegated authority should be traceable back to a human or organizational principal.
 - Approval, elevation, and revocation should be explicit and auditable.
 
+**Treat credentials as delegated capabilities.** API keys, service tokens, and agent-held secrets can authorize spend, data access, or consequential actions at machine speed. Scope them to the minimum service and duration, enforce rate, spend, and transaction limits independently of the agent, log their use, and make rotation and revocation testable incident actions.
+
 **Enterprise lens**
 As agents become more autonomous, the question shifts from “What did the model intend?” to “Under whose authority was this action permitted?”
 
