@@ -426,6 +426,7 @@ Judge each model and effort setting on:
 - reliability
 - supervision required
 - preference for subjective work
+- task-appropriate communication characteristics (for example: directness, calibrated uncertainty, constructive challenge, and explanation style)
 - deployment model and operational burden
 - actual availability and access restrictions
 - harness/tool compatibility and human handoff requirements
