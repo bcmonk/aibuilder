@@ -154,6 +154,8 @@ Measure AI productivity at the level of the outcome, not only the task it makes 
 **Weak-link principle**
 Once AI accelerates one part of a workflow, throughput becomes constrained by the slowest or least adaptable remaining part. The bottleneck may move rather than disappear, and faster production can simply create a larger queue for people downstream.
 
+**For discovery work, separate generation from validation.** Track the time, cost, and handoffs for each phase. Use AI to expand hypotheses or candidates, but size claims and investment to the slowest validation step; a larger candidate set is not evidence of a stronger result.
+
 **Try now**
 For one AI-assisted workflow:
 - map the path from request to customer- or business-facing outcome
