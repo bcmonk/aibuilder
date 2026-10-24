@@ -334,6 +334,8 @@ A result without an explanation, verification record, and human interpretation i
 ### Turn AI incidents into control improvements
 When a consequential AI workflow fails or nearly fails, preserve the trace, identify the contributing control gap, and add a test, review gate, or other durable remediation before re-enabling the affected workflow.
 
+**Treat patch velocity as a control.** For internet-exposed or agent-operated workflows, predefine asset ownership, emergency isolation, credential rotation, deployment rollback, and an evidence-backed deadline for applying critical fixes; rehearse the path before a disclosure turns it into an adversarial race.
+
 Before treating an agentic evaluation as evidence, verify that its safeguards, monitoring, execution harness, permissions, and stop conditions materially match production; document any exceptions and their risk acceptance.
 
 Record the incident trigger, impact, evidence, root cause, corrective action, owner, verification evidence, and closure decision. Treat a repeated incident as evidence that the control has not yet been institutionalized.
