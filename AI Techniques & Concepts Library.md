@@ -156,6 +156,8 @@ Once AI accelerates one part of a workflow, throughput becomes constrained by th
 
 **For discovery work, separate generation from validation.** Track the time, cost, and handoffs for each phase. Use AI to expand hypotheses or candidates, but size claims and investment to the slowest validation step; a larger candidate set is not evidence of a stronger result.
 
+**Treat proxy signals as hypotheses, not conclusions.** Name the outcome a metric is meant to indicate, plausible alternate causes for the observed signal, and the discriminating observation or decision threshold that would change your conclusion. A capacity constraint, for example, is not evidence of weak demand until the evidence distinguishes those causes.
+
 **Try now**
 For one AI-assisted workflow:
 - map the path from request to customer- or business-facing outcome
