@@ -210,6 +210,8 @@ Useful loop types:
 - Time-based
 - Proactive/event-driven
 
+**Proactivity has to earn its maintenance.** For a proactive/event-driven loop, define the recurring decision or deferred work it is meant to improve, a manual baseline, and the value threshold for an unsolicited intervention. Measure setup and supervision cost, accepted interventions, and false positives; retire the loop when its maintenance exceeds avoided work or it repeatedly creates noise.
+
 **Try now**
 For one recurring workflow, define:
 - goal
