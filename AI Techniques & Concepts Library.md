@@ -340,6 +340,8 @@ When a consequential AI workflow fails or nearly fails, preserve the trace, iden
 
 **Treat patch velocity as a control.** For internet-exposed or agent-operated workflows, predefine asset ownership, emergency isolation, credential rotation, deployment rollback, and an evidence-backed deadline for applying critical fixes; rehearse the path before a disclosure turns it into an adversarial race.
 
+**Plan for remediation asymmetry.** As AI accelerates vulnerability discovery and exploit development, do not assume patching alone will keep pace. For critical AI-enabled or internet-exposed workflows, predefine and rehearse the first-hour path to inventory affected assets, isolate them, rotate credentials, roll back, and produce evidence that each control completed.
+
 Before treating an agentic evaluation as evidence, verify that its safeguards, monitoring, execution harness, permissions, and stop conditions materially match production; document any exceptions and their risk acceptance.
 
 Record the incident trigger, impact, evidence, root cause, corrective action, owner, verification evidence, and closure decision. Treat a repeated incident as evidence that the control has not yet been institutionalized.
