@@ -103,6 +103,8 @@ These components can encode proprietary processes, operating methods, trust boun
 - Under whose authority does it act?
 - How are changes approved, tested, logged, and rolled back?
 
+For tool-enabled agents, treat model weights as an active supply-chain component rather than a passive local artifact. Local hosting can improve residency and control, but it does not remove the need for least-privilege tools, default-deny egress, tool/action logging, and tested stop conditions.
+
 **Useful framing**
 > AI agents are becoming executable institutional knowledge.
 
