@@ -634,6 +634,8 @@ A useful progression:
 
 Practical projects usually create more transferable skill than passive enablement.
 
+When using an AI-generated simulation or rehearsal, treat it as a hypothesis generator rather than evidence: state what the environment represents and omits, test a small decision inside it, and require a real-world check before a consequential conclusion becomes action.
+
 ---
 
 ## Opportunity Discovery
