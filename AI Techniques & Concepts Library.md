@@ -203,6 +203,7 @@ For a loop that can run independently, define:
 - fail-safes such as turn/time/cost caps
 - sandbox or permission boundaries
 - escalation condition
+- For recurring judgment calls, maintain a reviewable decision-precedent record: decision, rationale, scope, owner, and expiry/review trigger. Let agents apply it to routine cases, log the match, and escalate novel, conflicting, or low-confidence cases rather than treating prior decisions as unbounded authority.
 
 For knowledge work, manufacture the referee: counts, citations, format constraints, coverage thresholds, or other externally checkable tests. “Make it insightful” is not a usable stopping criterion. For research, check requirements one by one, preserve supported evidence, and turn each unmet requirement into the next targeted research action.
 
