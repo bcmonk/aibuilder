@@ -148,6 +148,8 @@ For one recurring deliverable, explicitly define:
 - the human review criteria
 - what evidence would cause the human to reject or revise the AI output
 
+**Prevent review debt.** Before delegating a consequential artifact, state the human's provisional point of view and decide the review checkpoints (outline, argument, or draft) where direction can still change cheaply. Do not send AI output you have not read and could not defend; optimize for the recipient's effort, not merely production volume.
+
 ---
 
 ### Optimize the whole workflow, not just the AI-accelerated step
