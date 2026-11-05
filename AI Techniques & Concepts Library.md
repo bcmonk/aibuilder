@@ -317,6 +317,8 @@ For a consequential workflow, do not limit evaluation to final-output scoring. G
 
 **Distinguish behavior from mechanism.** A passing output evaluation establishes what the system did under the tested conditions, not necessarily why it did it or whether it will behave the same way when context or incentives change. Record that evidence boundary explicitly; seek causal explanations and process evidence where the consequence justifies them.
 
+**For claimed self-improvement or optimization, separate the observed score gain from the proposed mechanism, transfer evidence, and regressions.** A benchmark increase may reflect a narrow bug fix, harness artifact, or task-specific optimization; do not promote it to general capability or autonomy evidence without tests that distinguish those explanations.
+
 **Make independence reviewable**
 Document the evaluator's scope, access and exclusions, conflicts, reporting recipient, authority to raise findings, and follow-up process. An evaluator is not independent merely because of its label or because it is external.
 
