@@ -292,6 +292,8 @@ As agents become more autonomous, the question shifts from “What did the model
 
 **Service-side authorization is a separate boundary.** A user's delegated authority to an agent does not obligate a third-party service to accept that agent's request. For consequential actions, the receiving service should be able to verify an approved agent identity, enforce a defined scope and transaction limit, record its decision, and revoke access independently of the user's prompt or the agent's claimed permission.
 
+**Use dedicated, revocable agent identities for consequential services.** Give an agent a segregated account or service identity with an independently enforced scope, transaction limit, audit trail, and emergency disable path; test both a denied action and revocation before treating the integration as operational.
+
 ---
 
 ### Design for reconstructability
