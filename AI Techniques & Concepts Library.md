@@ -203,6 +203,7 @@ For a loop that can run independently, define:
 - output artifact
 - machine-checkable stopping criteria
 - fail-safes such as turn/time/cost caps
+- an economic boundary: the unit of work being funded, per-run budget, expected value or quality threshold, and the observation that triggers stop, review, or escalation
 - sandbox or permission boundaries
 - escalation condition
 - For recurring judgment calls, maintain a reviewable decision-precedent record: decision, rationale, scope, owner, and expiry/review trigger. Let agents apply it to routine cases, log the match, and escalate novel, conflicting, or low-confidence cases rather than treating prior decisions as unbounded authority.
