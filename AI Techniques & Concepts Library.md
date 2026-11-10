@@ -388,6 +388,8 @@ Map:
 - what happens on failure
 - whether governance complexity is justified by the value of adding more agents
 
+**For recurring artifacts, design the refresh path as a workflow, not a reminder.** Specify the authorized source inputs, transformation steps, freshness trigger, human review gate, publication target, provenance record, and retirement condition. A repeatedly regenerated briefing, walkthrough, or video is an application with an output artifact, so it needs the same explicit ownership and failure handling as any other workflow.
+
 **DC angle**
 Map:
 **customer signal → research → hypothesis → collaboration → customer conversation → follow-up → learning captured**
