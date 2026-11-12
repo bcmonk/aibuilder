@@ -447,6 +447,7 @@ Judge each model and effort setting on:
 - token or API cost
 - reliability
 - supervision required
+- ability to complete a scoped, high-value project end-to-end within preset effort, cost, and approval boundaries
 - preference for subjective work
 - task-appropriate communication characteristics (for example: directness, calibrated uncertainty, constructive challenge, and explanation style)
 - deployment model and operational burden
