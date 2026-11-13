@@ -243,6 +243,7 @@ Reliable knowledge-work agents need explicit acceptance criteria.
 - Uncertainty is surfaced.
 - Duplicate findings are excluded.
 - Security findings include original advisories/CVEs where applicable.
+- For a high-consequence bounded property, distinguish a formal proof from testing: document the property, assumptions, model-to-implementation gap, and residual scope before calling the system verified.
 
 **Why it matters**
 Grounding alone does not guarantee acceptable output.
