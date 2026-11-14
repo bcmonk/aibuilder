@@ -232,6 +232,16 @@ For one recurring workflow, define:
 
 ---
 
+### Use structure-aware document retrieval
+When a document’s meaning depends on distant context—such as table units, definitions, or conditions—compare whole-document or outline-plus-reader retrieval with chunk-and-embed and keyword baselines instead of assuming chunking is sufficient.
+
+**Try now**
+- Choose one long public or synthetic document and a fixed question set.
+- Compare chunking, BM25, and an outline/reader agent on answer accuracy, cost, latency, and human acceptance.
+- Treat a single benchmark result as a hypothesis; validate on documents with similar structure before changing the default retrieval design.
+
+---
+
 ### Create “unit tests” for knowledge work
 Reliable knowledge-work agents need explicit acceptance criteria.
 
