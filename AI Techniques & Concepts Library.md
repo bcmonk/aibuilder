@@ -497,6 +497,8 @@ Model portability is only partial portability if the surrounding harness is tigh
 **Try now**
 Ask: “If this model or provider disappeared tomorrow, what would we have to rebuild?”
 
+Extend that question to the people and counterparties the workflow depends on: “If the key operator, sponsor, or external partner disappeared tomorrow, what undocumented judgment, relationship, authority, or access would we have to rebuild?” For critical workflows, name a substitute operator and test a bounded handoff.
+
 **Why it matters**
 Harness portability is an architecture and continuity concern. Institutional knowledge embedded in skills, orchestration, tools, and permissions can create lock-in even when the model itself is replaceable.
 
