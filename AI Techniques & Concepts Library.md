@@ -341,6 +341,8 @@ For material outputs, retain:
 - expert comments and unresolved questions
 - a plain-language interpretation of what the output does and does not establish
 
+**Distinguish declared provenance from independently testable provenance.** Vendor statements, custody records, and technical fingerprints can each support an origin claim, but they establish different things. For a consequential claim, record the method, reproducibility status, alternative explanations, and the decision that would change if the claim were false.
+
 **Why it matters**
 A result without an explanation, verification record, and human interpretation is difficult to challenge, reuse, or turn into durable knowledge.
 
