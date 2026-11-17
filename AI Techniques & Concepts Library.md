@@ -281,6 +281,18 @@ Use this before building, researching, or presenting.
 
 ## Authorization, Identity & Agent Security
 
+### Test for cascading trust across tools
+A tool that only reads or returns context can still influence a later write or external action if the agent treats its output as trusted instruction. Model tool results as untrusted data, preserve provenance, and enforce authorization at the receiving service rather than relying on the model to distinguish advice from authority.
+
+**Try now**
+- Draw the path from a read tool to every action it can influence.
+- Inject a malicious tool result and a natural-language claim of approval.
+- Verify that the downstream action is denied without a real authorization event, and that the trace records the source and decision.
+
+**Why it matters**
+Compromising one low-privilege component can become a path to higher-privilege tools through shared context. A read-only label is not a sufficient trust boundary.
+
+
 ### Treat intent and authorization as separate things
 Natural-language instructions can express intent, but they should not grant authority. Authorization should be enforced by identity, policy, delegated permissions, and infrastructure controls that the model cannot redefine through conversation.
 
