@@ -165,6 +165,8 @@ Once AI accelerates one part of a workflow, throughput becomes constrained by th
 
 **Treat proxy signals as hypotheses, not conclusions.** Name the outcome a metric is meant to indicate, plausible alternate causes for the observed signal, and the discriminating observation or decision threshold that would change your conclusion. A capacity constraint, for example, is not evidence of weak demand until the evidence distinguishes those causes.
 
+**Stage consequential commitments behind evidence gates.** When demand, cost, capability, or control uncertainty is high, make the next commitment reversible enough to buy the observation needed: set an explicit trigger, a budget or scope cap, and a review date. Do not mistake a forecast for evidence; expand only when the agreed signal clears the agreed threshold.
+
 **Try now**
 For one AI-assisted workflow:
 - map the path from request to customer- or business-facing outcome
