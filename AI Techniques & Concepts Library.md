@@ -524,6 +524,8 @@ For repeated workflows, track:
 
 Then calculate **cost per accepted task**.
 
+**Test switching readiness for material workflows.** Periodically run a bounded substitute-provider drill: hold the task, context, tools, acceptance criteria, and human review constant; compare accepted output, rework, elapsed time, total cost, and broken harness dependencies; then record the conditions under which the alternate can assume the role. Cheap tokens create leverage only when this test shows the workflow can switch without losing its acceptance bar or control boundaries.
+
 ---
 
 ### Audit context bloat
