@@ -471,6 +471,8 @@ Keep 5–10 representative tasks and rerun them when a meaningful new model arri
 
 Benchmark the whole workflow, not the model in isolation: hold task, context, tools, acceptance criteria, and human review constant while comparing model/settings, then record where access, harness, UX, or handoff friction changes the result.
 
+When a new model improves aggregate benchmarks or price but changes interaction style, test its fit separately for each workflow. Include an end-to-end completion check—missing facts, unfinished build steps, unusable handoffs, and required human correction—so a lower headline cost does not hide a higher cost of rework.
+
 Treat higher effort as a testable setting, not a quality default: benchmark low, medium, and high effort on representative tasks, and retain the lowest setting that meets the acceptance bar. More reasoning can add cost, latency, or counterproductive second-guessing.
 
 For a recurring, low-risk task that can be completed by either typing or voice, compare the two interaction modes. Record output acceptance, correction/rework, elapsed time, and context or privacy constraints. Treat voice as a workflow choice to validate, not a default assumed to be faster or suitable everywhere.
