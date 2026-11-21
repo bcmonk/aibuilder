@@ -291,6 +291,7 @@ Natural-language instructions can express intent, but they should not grant auth
 - Tool access should be derived from real identity and policy state, not prompt text.
 - Delegated authority should be traceable back to a human or organizational principal.
 - Approval, elevation, and revocation should be explicit and auditable.
+- Treat computer-use and OS-level screen/file permissions as execution authority: test that a compromised agent cannot turn read access into send, delete, or modify actions, and verify revocation outside the model.
 
 **Treat credentials as delegated capabilities.** API keys, service tokens, and agent-held secrets can authorize spend, data access, or consequential actions at machine speed. Scope them to the minimum service and duration, enforce rate, spend, and transaction limits independently of the agent, log their use, and make rotation and revocation testable incident actions.
 
