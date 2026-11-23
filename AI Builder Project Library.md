@@ -102,6 +102,7 @@ Run it manually with one model and public data.
 - Split research and verification roles when self-review begins to rubber-stamp the work.
 - Pass a compact handoff contract between nodes instead of the entire conversation.
 - Add model routing.
+- At a consequential framing point, obtain one independently prompted competing hypothesis; preserve the disagreement, then verify the claims that would change the recommendation rather than selecting the more fluent answer.
 - Track cost per accepted brief and whether additional loop cycles materially improve quality.
 
 ---
