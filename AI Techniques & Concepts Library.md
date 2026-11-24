@@ -384,6 +384,8 @@ Does specialization improve quality enough to justify the added complexity?
 ### Think in workflow graphs
 Treat a loop as one job and a graph as an organization of jobs. Add nodes only when specialization or parallelism earns its complexity. Useful signals for fanning out include self-review rubber-stamping, one agent wearing conflicting roles, parallelizable work, a finish line that is really multiple jobs, or quality that has plateaued.
 
+**Start with objectives and guardrails, not an agent org chart.** Treat persistent agent roles as a hypothesis: a coordinator may create temporary specialists for a bounded job when that improves quality, speed, or separation of duties. Preserve human ownership of the objective, constraints, tool authority, evidence review, and consequential decisions; retain a role only when its benefit is observable and its authority is legible.
+
 For graph handoffs, pass explicit contracts and the minimum necessary context rather than entire conversations. Match model strength to the node, verify early because errors compound, cap expensive nodes, and place humans at consequential gates.
 
 Map:
