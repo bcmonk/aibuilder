@@ -661,6 +661,8 @@ A useful progression:
 
 Practical projects usually create more transferable skill than passive enablement.
 
+For AI-generated artifacts, pair automated verification with a human-readable ownership note: intended use, assumptions, what the check establishes, what it does not establish, and the failure signal or review that would block operational use. A passing check is evidence, not a substitute for accountable understanding.
+
 When using an AI-generated simulation or rehearsal, treat it as a hypothesis generator rather than evidence: state what the environment represents and omits, test a small decision inside it, and require a real-world check before a consequential conclusion becomes action.
 
 ---
